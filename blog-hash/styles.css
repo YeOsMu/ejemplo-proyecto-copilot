@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #7b799d21;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+header {
+    background: #0f80d5d6 url('img/imagen 3.png') center/cover no-repeat;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+h2 {
+    color: #2d7dd2;
+}
+img {
+    display: block;
+    margin: 1em auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fafafa;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #0f80d5d6;
+    color: #ffffff;
+    margin-top: 2em;
+    border-top: 1px solid #ccc;
+}
+
+/* Styles for an image container to be placed in the HTML (move the HTML markup into your .html file) */
+.footer-image {
+    text-align: center;
+    margin: 20px 0;
+}
+.footer-image img {
+    width: 120px;
+    border-radius: 10px;
+    display: inline-block;
+}
